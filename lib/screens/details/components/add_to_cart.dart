@@ -60,3 +60,9 @@ class AddToCart extends StatelessWidget {
     );
   }
 }
+
+FlatButton(
+    {RoundedRectangleBorder shape,
+    Color color,
+    Null Function() onPressed,
+    Text child}) {}
